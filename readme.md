@@ -13,5 +13,8 @@ SQLAlchemy Core é a arquitetura fundamental para SQLAlchemy como um "Kit de fer
 # ORM
 SQLAlchemy ORM baseia-se no Core para fornecer objeto opcional recursos de mapeamento relacional. O ORM fornece uma camada adicional de configuração permitindo que classes Python definidas pelo usuário sejam mapeadas para tabelas de banco de dados e outras construções, bem como uma persistência de objeto mecanismo conhecido como Sessão. Em seguida, estende o nível Core Linguagem de expressão SQL para permitir que consultas SQL sejam compostas e invocadas em termos de objetos definidos pelo usuário.
 
+
+## Dicas
 Recomendo Iniciar os testes através do arquivo core_test.py e depois seguir para orm_test.py e explorar os dois métodos presentes nesse arquivo.
+
 As bibliotecas necessárias para execução estão disponíveis no arquivo requirements.txt
